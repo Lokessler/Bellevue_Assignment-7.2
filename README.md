@@ -21,4 +21,5 @@
 <hr>
 <h2>Pylint Errors</h2>
 <p>Ran 'pylint' on 'peerReviewErrors.py' after finding 10 fixes and output it's findings to 'pylint-after-10-fixes.txt' file.</p>
-<p>File now included in repo</p>
+<p>After using 'pylint3' and editing 'peerReviewErrors.py' the code now scores a 7/10. Output results to 'pylint-above-seven.txt' and did a final commit of 'peerReviewErrors.py'.</p>
+<p>Both 'pylint' files included in repo</p>
