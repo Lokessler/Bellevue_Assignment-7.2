@@ -25,9 +25,9 @@ def chooseCave():
         #
 	#return caves
     while cave != '1' and cave != '2':
-	print('Which cave will you go into? (1 or 2)')
-	cave = input()
-
+        print('Which cave will you go into? (1 or 2)')
+        cave = input()
+        
     return caves
     # TabError: inconsistent use of tabs and spaces in indentation
 
@@ -47,7 +47,9 @@ def checkCave(chosenCave):
 	if chosenCave == str(friendlyCave):
 		print('Gives you his treasure!')
 	else:
-		print 'Gobbles you down in one bite!'
+		#print 'Gobbles you down in one bite!'
+		print('Gobbles you down in one bite!')
+		# SyntaxError: Missing parentheses in call to 'print'
 
 playAgain = 'yes'
 while playAgain = 'yes' or playAgain = 'y':
