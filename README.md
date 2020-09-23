@@ -8,4 +8,5 @@
 </ul>
 <ol>
   <li>Fix 1: TabError: inconsistent use of tabs and spaces in indentation</li>
+  <li>Fix 2: SyntaxError: Missing parentheses in call to 'print'</li>
 </ol>
