@@ -20,9 +20,11 @@ def displayIntro():
         str2 = 'you see two caves. In one cave, the dragon is friendly\n'
         str3 = 'and will share his treasure with you. The other dragon\n'
         str4 = 'is greedy and hungry, and will eat you on sight.'
-        print(str1 + str2 + str3 + str4)
+        print(str1 + str2 + str3 + str4 + '\n')
         # LogicError: multi-line string includes ALL whitespace to be printed
-        print()
+        #print()
+        # LogicError: unnecessary empty 'print()' call following 'print()' call to create newline
+        # Appended '\n' character to preceding 'print()' function
 
 def chooseCave():
     cave = ''
