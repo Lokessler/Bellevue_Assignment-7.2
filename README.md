@@ -11,4 +11,5 @@
   <li>Fix 2: SyntaxError: Missing parentheses in call to 'print'</li>
   <li>Fix 3: SyntaxError: invalid syntax, use '==' for equality operation</li>
   <li>Fix 4: NameError: name 'choosecave' is not defined, changed to use 'chooseCave' function</li>
+  <li>Fix 5: NameError: name 'caves' is not defined, changed to 'cave' variable</li>
 </ol>
