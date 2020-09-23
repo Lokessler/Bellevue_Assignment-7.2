@@ -1,0 +1,98 @@
+************* Module peerReviewErrors
+C:  1, 0: Invalid module name "peerReviewErrors" (invalid-name)
+C:  1, 0: Missing module docstring (missing-docstring)
+C: 14, 0: Invalid function name "displayIntro" (invalid-name)
+C: 32, 0: Invalid function name "chooseCave" (invalid-name)
+C: 51, 0: Invalid function name "checkCave" (invalid-name)
+C: 51, 0: Invalid argument name "chosenCave" (invalid-name)
+C: 71, 4: Invalid variable name "friendlyCave" (invalid-name)
+C: 80, 0: Invalid constant name "playAgain" (invalid-name)
+C: 86, 4: Invalid constant name "caveNumber" (invalid-name)
+C: 91, 4: Invalid constant name "playAgain" (invalid-name)
+
+
+Report
+======
+34 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |1          |=          |0.00        |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |0          |=          |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |0          |=          |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |3      |3          |=          |100.00      |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |37     |38.14 |37       |=          |
++----------+-------+------+---------+-----------+
+|docstring |11     |11.34 |11       |=          |
++----------+-------+------+---------+-----------+
+|comment   |39     |40.21 |39       |=          |
++----------+-------+------+---------+-----------+
+|empty     |10     |10.31 |10       |=          |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |0        |=          |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |0.000    |=          |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |10     |10       |=          |
++-----------+-------+---------+-----------+
+|refactor   |0      |0        |=          |
++-----------+-------+---------+-----------+
+|warning    |0      |0        |=          |
++-----------+-------+---------+-----------+
+|error      |0      |0        |=          |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++------------------+------------+
+|message id        |occurrences |
++==================+============+
+|invalid-name      |9           |
++------------------+------------+
+|missing-docstring |1           |
++------------------+------------+
+
+
+
+Global evaluation
+-----------------
+Your code has been rated at 7.06/10 (previous run: 7.06/10, +0.00)
+
