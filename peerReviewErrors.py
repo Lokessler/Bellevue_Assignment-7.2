@@ -19,11 +19,19 @@ def displayIntro():
 
 def chooseCave():
     cave = ''
+        '''
 	while cave != '1' and cave != '2':
 		print('Which cave will you go into? (1 or 2)')
 		cave = input()
 
 	return caves
+        '''
+    while cave != '1' and cave != '2':
+	print('Which cave will you go into? (1 or 2)')
+	cave = input()
+
+    return caves
+    # TabError: inconsistent use of tabs and spaces in indentation
 
 def checkCave(chosenCave):
 	print('You approach the cave...')
