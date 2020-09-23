@@ -6,3 +6,6 @@
   <li>Fix 0.2: Replaced name and date in header with my information</li>
   <li>Fix 0.3: Added missing parenthesis in header at (8, 93)</li>
 </ul>
+<ol>
+  <li>Fix 1: TabError: inconsistent use of tabs and spaces in indentation</li>
+</ol>
