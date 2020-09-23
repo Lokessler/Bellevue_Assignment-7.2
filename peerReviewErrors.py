@@ -28,7 +28,8 @@ def chooseCave():
         print('Which cave will you go into? (1 or 2)')
         cave = input()
         
-    return caves
+    return cave
+    # NameError: name 'caves' is not defined, changed to 'cave' variable
     # TabError: inconsistent use of tabs and spaces in indentation
 
 def checkCave(chosenCave):
