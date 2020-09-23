@@ -12,74 +12,84 @@ import random
 import time
 
 def displayIntro():
-	#print('''You are in a land full of dragons. In front of you,
-	#you see two caves. In one cave, the dragon is friendly
-	#and will share his treasure with you. The other dragon
-	#is greedy and hungry, and will eat you on sight.''')
-        str1 = 'You are in a land full of dragons. In front of you,\n'
-        str2 = 'you see two caves. In one cave, the dragon is friendly\n'
-        str3 = 'and will share his treasure with you. The other dragon\n'
-        str4 = 'is greedy and hungry, and will eat you on sight.'
-        print(str1 + str2 + str3 + str4 + '\n')
-        # LogicError: multi-line string includes ALL whitespace to be printed
-        #print()
-        # LogicError: unnecessary empty 'print()' call following 'print()' call to create newline
-        # Appended '\n' character to preceding 'print()' function
+    """
+    This function displays intro text for our game.
+    """
+    #print('''You are in a land full of dragons. In front of you,
+    #you see two caves. In one cave, the dragon is friendly
+    #and will share his treasure with you. The other dragon
+    #is greedy and hungry, and will eat you on sight.''')
+    str1 = 'You are in a land full of dragons. In front of you,\n'
+    str2 = 'you see two caves. In one cave, the dragon is friendly\n'
+    str3 = 'and will share his treasure with you. The other dragon\n'
+    str4 = 'is greedy and hungry, and will eat you on sight.'
+    print(str1 + str2 + str3 + str4 + '\n')
+    # LogicError: multi-line string includes ALL whitespace to be printed
+    #print()
+    # LogicError: unnecessary empty 'print()' call following 'print()' call to create newline
+    # Appended '\n' character to preceding 'print()' function
 
 def chooseCave():
+    """
+    This function prompts the user to choose a number as to what cave to enter.
+    return: the number (String) input by the user (cave).
+    """
     cave = ''
-	#while cave != '1' and cave != '2':
-	#	print('Which cave will you go into? (1 or 2)')
-	#	cave = input()
-        #
-	#return caves
+    #while cave != '1' and cave != '2':
+    #	print('Which cave will you go into? (1 or 2)')
+    #	cave = input()
+    #
+    #return caves
     while cave != '1' and cave != '2':
         print('Which cave will you go into? (1 or 2)')
         cave = input()
-        
+
     return cave
     # NameError: name 'caves' is not defined, changed to 'cave' variable
     # TabError: inconsistent use of tabs and spaces in indentation
 
 def checkCave(chosenCave):
-	print('You approach the cave...')
-	#sleep for 2 seconds
-	time.sleep(2)
-	print('It is dark and spooky...')
-	#sleep for 2 seconds
-	#time.sleep(3)
-	time.sleep(2)
-        # LogicError: Comment says 'sleep for 2 seconds' not 3
-	print('A large dragon jumps out in front of you! He opens his jaws and...\n')
-	#print()
-        # LogicError: unnecessary empty 'print()' call following 'print()' call to create newline
-        # Appended '\n' character to preceding 'print()' function
+    """
+    This function checks what will randomly happen when entering the chosen cave.
+    parameter 1: String with the text of either '1' or '2' (entered by user).
+    """
+    print('You approach the cave...')
+    #sleep for 2 seconds
+    time.sleep(2)
+    print('It is dark and spooky...')
+    #sleep for 2 seconds
+    #time.sleep(3)
+    time.sleep(2)
+    # LogicError: Comment says 'sleep for 2 seconds' not 3
+    print('A large dragon jumps out in front of you! He opens his jaws and...\n')
+    #print()
+    # LogicError: unnecessary empty 'print()' call following 'print()' call to create newline
+    # Appended '\n' character to preceding 'print()' function
 
-	#sleep for 2 seconds
-	time.sleep(2)
-	friendlyCave = random.randint(1, 2)
+    #sleep for 2 seconds
+    time.sleep(2)
+    friendlyCave = random.randint(1, 2)
 
-	if chosenCave == str(friendlyCave):
-		print('Gives you his treasure!')
-	else:
-		#print 'Gobbles you down in one bite!'
-		print('Gobbles you down in one bite!')
-		# SyntaxError: Missing parentheses in call to 'print'
+    if chosenCave == str(friendlyCave):
+        print('Gives you his treasure!')
+    else:
+        #print 'Gobbles you down in one bite!'
+        print('Gobbles you down in one bite!')
+        # SyntaxError: Missing parentheses in call to 'print'
 
 playAgain = 'yes'
 #while playAgain = 'yes' or playAgain = 'y':
 while playAgain == 'yes' or playAgain == 'y':
 # SyntaxError: invalid syntax, use '==' for equality operation
-	displayIntro()
-	#caveNumber = choosecave()
-	caveNumber = chooseCave()
-	# NameError: name 'choosecave' is not defined, changed to use 'chooseCave' function
-	checkCave(caveNumber)
-    
-	print('Do you want to play again? (yes or no)')
-	playAgain = input()
-	if playAgain == "no":
-		#print("Thanks for planing")
-                print("Thanks for playing")
-                # LogicError: We're not 'planing' in this program, should be 'playing' instead
+    displayIntro()
+    #caveNumber = choosecave()
+    caveNumber = chooseCave()
+    # NameError: name 'choosecave' is not defined, changed to use 'chooseCave' function
+    checkCave(caveNumber)
 
+    print('Do you want to play again? (yes or no)')
+    playAgain = input()
+    if playAgain == "no":
+        #print("Thanks for planing")
+        print("Thanks for playing")
+        # LogicError: We're not 'planing' in this program, should be 'playing' instead
