@@ -56,7 +56,9 @@ playAgain = 'yes'
 while playAgain == 'yes' or playAgain == 'y':
 # SyntaxError: invalid syntax, use '==' for equality operation
 	displayIntro()
-	caveNumber = choosecave()
+	#caveNumber = choosecave()
+	caveNumber = chooseCave()
+	# NameError: name 'choosecave' is not defined, changed to use 'chooseCave' function
 	checkCave(caveNumber)
     
 	print('Do you want to play again? (yes or no)')
