@@ -1,9 +1,11 @@
+#!/usr/bin/python3
+
 # This is a header for the application
 # You should read this header and insert your name and your date below as part of the peer review
 # This is a typical part of any program
-# Author: <author>
-# Creation Date: <date>
-# Below is a simple program with 10 issues (some are syntax errors and some are logic errors.  You need to identify the issues and correct them.
+# Author: Logan Kessler 
+# Creation Date: 09-23-2020
+# Below is a simple program with 10 issues (some are syntax errors and some are logic errors). You need to identify the issues and correct them.
 
 import random
 import time
