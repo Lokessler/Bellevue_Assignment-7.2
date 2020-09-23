@@ -18,3 +18,7 @@
   <li>Fix 9: LogicError: unnecessary empty 'print()' call following 'print()' call to create newline (1)</li>
   <li>Fix 10: LogicError: unnecessary empty 'print()' call following 'print()' call to create newline (2)</li>
 </ol>
+<hr>
+## Pylint Errors
+<p>Ran 'pylint' on 'peerReviewErrors.py' after finding 10 fixes and output it's findings to 'pylint-after-10-fixes.txt' file.</p>
+<p>File now included in repo</p>
