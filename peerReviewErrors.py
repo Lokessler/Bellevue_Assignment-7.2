@@ -50,8 +50,11 @@ def checkCave(chosenCave):
 	#time.sleep(3)
 	time.sleep(2)
         # LogicError: Comment says 'sleep for 2 seconds' not 3
-	print('A large dragon jumps out in front of you! He opens his jaws and...')
-	print()
+	print('A large dragon jumps out in front of you! He opens his jaws and...\n')
+	#print()
+        # LogicError: unnecessary empty 'print()' call following 'print()' call to create newline
+        # Appended '\n' character to preceding 'print()' function
+
 	#sleep for 2 seconds
 	time.sleep(2)
 	friendlyCave = random.randint(1, 2)
