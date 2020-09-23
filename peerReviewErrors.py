@@ -52,7 +52,9 @@ def checkCave(chosenCave):
 		# SyntaxError: Missing parentheses in call to 'print'
 
 playAgain = 'yes'
-while playAgain = 'yes' or playAgain = 'y':
+#while playAgain = 'yes' or playAgain = 'y':
+while playAgain == 'yes' or playAgain == 'y':
+# SyntaxError: invalid syntax, use '==' for equality operation
 	displayIntro()
 	caveNumber = choosecave()
 	checkCave(caveNumber)
