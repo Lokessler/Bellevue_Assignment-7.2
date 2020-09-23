@@ -15,5 +15,6 @@
   <li>Fix 6: LogicError: We're not 'planing' in this program, should be 'playing' instead</li>
   <li>Fix 7: LogicError: Comment says 'sleep for 2 seconds' not 3 seconds</li>
   <li>Fix 8: LogicError: multi-line string includes ALL whitespace to be printed</li>
-  <li>Fix 9: LogicError: unnecessary empty 'print()' call following 'print()' call to create newline</li>
+  <li>Fix 9: LogicError: unnecessary empty 'print()' call following 'print()' call to create newline (1)</li>
+  <li>Fix 10: LogicError: unnecessary empty 'print()' call following 'print()' call to create newline (2)</li>
 </ol>
