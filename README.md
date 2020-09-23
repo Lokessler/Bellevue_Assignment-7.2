@@ -13,4 +13,5 @@
   <li>Fix 4: NameError: name 'choosecave' is not defined, changed to use 'chooseCave' function</li>
   <li>Fix 5: NameError: name 'caves' is not defined, changed to 'cave' variable</li>
   <li>Fix 6: LogicError: We're not 'planing' in this program, should be 'playing' instead</li>
+  <li>Fix 7: LogicError: Comment says 'sleep for 2 seconds' not 3 seconds</li>
 </ol>
