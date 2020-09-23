@@ -38,7 +38,9 @@ def checkCave(chosenCave):
 	time.sleep(2)
 	print('It is dark and spooky...')
 	#sleep for 2 seconds
-	time.sleep(3)
+	#time.sleep(3)
+        time.sleep(2)
+        # LogicError: Comment says 'sleep for 2 seconds' not 3
 	print('A large dragon jumps out in front of you! He opens his jaws and...')
 	print()
 	#sleep for 2 seconds
